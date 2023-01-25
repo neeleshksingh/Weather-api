@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(90deg,#4568dc , #b06ab3 ) ;
+}
+.font{
+    font-family: 'Ubuntu', sans-serif; 
+}
+header{
+    margin-top: 50px;
+    font-size: 40px;
+    letter-spacing: 7px;
+}
+#top{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#val{
+    height: 60px;
+    width: 21%;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    border: none;
+    background: linear-gradient(90deg,#ffafbd , #ffc3a0 ) ;
+}
+#val:focus{
+    outline: none;
+}
+#btn{
+    height: 60px;
+    border-radius: 10px;
+    width: 8%;
+    font-size: larger;
+    border: none;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: #a8e063;
+}
+#display{
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(90deg,#000428 , #004e92 ) ;
+}
+#temp{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+#wind-speed{
+    margin-top: 20px;
+}
+.footer{
+    margin-top: 10px;
+    border: none;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 65px;
+    padding: 10px;
+}
+#footer{
+    background: linear-gradient(90deg,#56ab2f , #a8e063 ) ;
+}
+#coord{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#zone{
+    background: linear-gradient(90deg,#eecda3 , #ef629f ) ;  
+}
+.end{
+    display: flex;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+}

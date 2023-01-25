@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="font">
+        <h1>Weather App</h1>
+     </header>
+     <section id="top" class="font">
+          <input type="text" id="val" placeholder="Enter City Name">
+          <button id="btn" class="btn">Search</button>
+     </section>
+
+     <section id="display" class="font">
+           <div id="today">
+              <h1>Today</h1>
+           </div>
+           <div id="icon">
+               
+           </div>
+           <div id="desc">
+
+           </div>
+           <div id="temp">
+                 <div id="max">
+                     <div id="tempmaxdesc">
+                        Max Temp
+                     </div>
+                     <div id="tempmaxval">
+
+                     </div>
+                 </div>
+                 <div id="min">
+                  <div id="tempmindesc">
+                     Min Temp
+                  </div>
+                  <div id="tempminval">
+                   
+                  </div>
+              </div>
+           </div>
+           <footer>
+            <div id="wind-speed">
+            </div>
+            <div id="humid"></div>
+      </footer>
+     </section>
+     <footer class="end">
+        <section id="footer" class="footer font">
+            <div id="coord">
+                <div id="lon"><h4>Longitude:</h4></div>
+                <div id="lat"><h4>Latitude:</h4></div>
+            </div>
+         </section>
+         <section class="footer font" id="zone">
+            <div id="t-zone"><h4>Time Zone:</h4></div>
+         </section>
+     </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
