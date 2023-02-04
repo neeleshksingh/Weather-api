@@ -105,3 +105,17 @@ header{
     margin-right: auto;
     gap: 10px;
 }
+@media only screen and (max-width:576px){
+    #val{
+        width: 80%;
+    }
+    #btn{
+        width: 20%;
+    }
+    #display{
+        width: 80%;
+    }
+    .end{
+        width: 80%;
+    }
+}
